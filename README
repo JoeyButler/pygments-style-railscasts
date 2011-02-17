@@ -2,9 +2,8 @@ Usage example:
 ==============
 
    >>> from pygments.formatters import HtmlFormatter
-   >>> from railscasts import RailscastsStyle
-   >>> HtmlFormatter(style=RailscastsStyle).style
-   <class 'railscasts.RailscastsStyle'>
+   >>> HtmlFormatter(style='railscasts').style
+   <class 'pygments_style_railscasts.RailscastsStyle'>
 
 Please consult the official documentation for further information on the usage
 of pygment styles: http://pygments.org/docs/
