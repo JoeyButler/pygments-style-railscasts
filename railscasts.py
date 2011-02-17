@@ -12,8 +12,8 @@
 """
 
 from pygments.style import Style
-from pygments.token import Keyword, Name, Comment, String, Error, \
-     Number, Operator, Punctuation
+from pygments.token import Comment, Error, Keyword, Name, Number, Operator, \
+                           Punctuation, String, Text
 
 
 class RailscastsStyle(Style):
@@ -36,12 +36,14 @@ class RailscastsStyle(Style):
         Keyword.Type:           '#5a647e',
 
         Name:                   '#fff',
+        Name.Attribute:         '#da4939',
         Name.Builtin:           '#6d9cbe',
         Name.Builtin.Pseudo:    '#5a647e',
         Name.Class:             '#ffc66d',
         Name.Constant:          '#6d9cbe',
         Name.Decorator:         '#da4939',
         Name.Function:          '#ffc66d',
+        Name.Tag:               '#e8bf6a',
 
         Number:                 '#a5c261',
 
@@ -52,4 +54,6 @@ class RailscastsStyle(Style):
 
         String:                 '#a5c261',
         String.Escape:          '#da4939',
+
+        Text:                   '#fff',
     }
