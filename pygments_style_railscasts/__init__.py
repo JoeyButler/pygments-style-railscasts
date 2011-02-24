@@ -23,7 +23,7 @@ class RailscastsStyle(Style):
 
     default_style = ''
 
-    background_color = '#111'
+    background_color = '#222'
     highlight_color = '#e6e1dc'
 
     styles = {
