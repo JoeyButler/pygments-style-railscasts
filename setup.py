@@ -1,10 +1,10 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name = 'pygments-style-railscasts',
-    version = '0.2',
+    version = '0.3',
     description = 'Pygments version of the "railscasts" vim theme.',
     license = 'BSD',
 
@@ -26,6 +26,8 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
 )
