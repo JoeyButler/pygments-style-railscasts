@@ -38,7 +38,7 @@ class RailscastsStyle(Style):
         Name:                   '#fff',
         Name.Attribute:         '#da4939',
         Name.Builtin:           '#6d9cbe',
-        Name.Builtin.Pseudo:    '#5a647e',
+        Name.Builtin.Pseudo:    '#fff',
         Name.Class:             '#ffc66d',
         Name.Constant:          '#6d9cbe',
         Name.Decorator:         '#da4939',
