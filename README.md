@@ -1,3 +1,11 @@
+Installation:
+==============
+
+    git clone git://github.com/DrMegahertz/pygments-style-railscasts.git
+    cd pygments-style-railscasts
+    python setup.py build
+    python setup.py install
+
 Usage example:
 ==============
 
